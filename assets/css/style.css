@@ -1,0 +1,38 @@
+.snickleFritz {
+	font-size: 18px;
+}
+.snickleFritz:hover {
+	color: white;
+	background: gray;
+	transition: .3s;
+}
+.snickleFritz:active {
+	background: black;
+}
+.questions {
+	margin-bottom: 30px;
+}
+.jumbotron h1 {
+	margin-bottom: 30px;
+}
+.restartButton {
+	margin-top: 30px;
+}
+body {
+	background: gray;
+}
+.jumbotron {
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+}
+.questions {
+
+}
+h1 {
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+	padding: 20px;
+	border-radius: 8px;
+}
