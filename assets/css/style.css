@@ -1,12 +1,20 @@
-.snickleFritz {
+body {
+	height: 800px;
+	width: 100%;
+	background: linear-gradient(to bottom right, #000000 0%, #ffffff 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.answerButtons {
 	font-size: 18px;
 }
-.snickleFritz:hover {
+.answerButtons:hover {
 	color: white;
 	background: gray;
 	transition: .3s;
 }
-.snickleFritz:active {
+.answerButtons:active {
 	background: black;
 }
 .questions {
@@ -18,10 +26,9 @@
 .restartButton {
 	margin-top: 30px;
 }
-body {
-	background: gray;
-}
+
 .jumbotron {
+	margin-top: 50px;
 	border: black;
 	border-style: solid;
 	border-width: 1px;
